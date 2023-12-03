@@ -348,4 +348,6 @@ header.sticky {
 }
 
 /*Contact Section CSS*/
-.contact {}
+.contact {
+    background-color: #f3f4f6;
+}
