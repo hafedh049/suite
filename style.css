@@ -132,12 +132,10 @@ section {
     transition: all .8s ease;
 }
 
-.main-btn {
-    display: inline-block;
-    color: #111;
+.main-btn:hover {
+    color: #fff;
     font-size: 16px;
     font-weight: 500;
     border: 1px solid #111;
-    padding: 12px 25px;
-    transition: all .8s ease;
+    background-color: #000;
 }
