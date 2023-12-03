@@ -329,5 +329,8 @@ header.sticky {
 
 
 .cart h5 {
-    color: ;
+    color: #636872;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
 }
