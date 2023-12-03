@@ -221,4 +221,5 @@ header.sticky {
 
 .row img:hover {
     transform: scale(.95);
+    border-radius: 5px;
 }
