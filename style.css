@@ -201,3 +201,8 @@ header.sticky {
 .center-text span {
     color: hotpink;
 }
+
+.product {
+    display: grid;
+
+}
