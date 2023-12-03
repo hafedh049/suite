@@ -371,5 +371,7 @@ header.sticky {
 }
 
 .contact-info p {
-    color: #565656
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
 }
