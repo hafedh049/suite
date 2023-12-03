@@ -66,3 +66,7 @@ header {
     font-weight: 400;
     transition: all .42 ease;
 }
+
+.nav-icon i:hover {
+    color: hotpink;
+}
