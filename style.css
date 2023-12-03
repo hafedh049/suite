@@ -326,3 +326,8 @@ header.sticky {
     grid-template-columns: repeat(auto-fit, minmax(380px, auto));
     gap: 1rem;
 }
+
+
+.cart h5 {
+    color: ;
+}
