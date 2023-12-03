@@ -355,4 +355,5 @@ header.sticky {
 .contact-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
 }
