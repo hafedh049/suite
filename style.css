@@ -338,5 +338,6 @@ header.sticky {
 .cart h4 {
     color: #111;
     font-size: 18px;
+    word-spacing: 2px;
     font-weight: 600;
 }
