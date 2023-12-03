@@ -22,4 +22,5 @@ header {
     z-index: 1000;
     /*stack in flutter the higher the value the the higher the priority*/
     display: flex;
+    /*by default flex-direction is row(Horizontaly), dynamically adjust their sizes within a container*/
 }
