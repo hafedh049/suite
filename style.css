@@ -366,5 +366,6 @@ header.sticky {
 .contact-info h4 {
     color: #212529;
     font-size: 14px;
-    text-transform: ;
+    text-transform: uppercase;
+    margin-bottom: 10px
 }
