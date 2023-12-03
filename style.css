@@ -14,6 +14,7 @@
     /*decoration applied to font kima e dash,line through, ...*/
 }
 
+/*Nav Bar*/
 header {
     position: fixed;
     /*always stays fixed and its postion is relative to the window or viewport*/
