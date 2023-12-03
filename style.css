@@ -145,6 +145,7 @@ section {
 
 .down-arrow {
     position: absolute;
+    /*absolute : yaani tpositioni el element relative to its nearst ancestor w ken famch ancestor mela el containing block eli fih*/
     top: 85%;
     right: 11%;
 }
