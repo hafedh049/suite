@@ -26,5 +26,5 @@ header {
     align-items: center;
     /*aligns the items to the cross-axis(x-axis) in this case top center*/
     justify-content: space-between;
-    /*Kima fl flutter main axis-alignment*/
+    /*Kima fl flutter main axis-alignment(y-axis)*/
 }
