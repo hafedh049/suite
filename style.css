@@ -352,4 +352,6 @@ header.sticky {
     background-color: #f3f4f6;
 }
 
-.contact-info {}
+.contact-info {
+    display: grid;
+}
