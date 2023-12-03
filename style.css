@@ -6,4 +6,5 @@
     box-sizing: border-box;
     /*same width, height, padding but not margin for elements (divs)*/
     scroll-behavior: smooth;
+    /*ki tista3ml el js lil scrolling to anchors matjumpich instantly twali taaml smooth animation*/
 }
