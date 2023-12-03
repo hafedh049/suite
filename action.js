@@ -1,0 +1,1 @@
+const products = document.getElementById("");
