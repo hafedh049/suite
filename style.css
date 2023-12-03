@@ -405,10 +405,14 @@ header.sticky {
 
 #first-name {
     color: hotpink;
+    transition: all .8s ease;
 }
 
 #first-name {}
 
-#last-name {}
+#last-name {
+    color: hotpink;
+    transition: all .8s ease;
+}
 
 #last-name {}
