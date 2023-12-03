@@ -208,4 +208,12 @@ header.sticky {
     gap: 2rem;
 }
 
-.row {}
+.row {
+    position: relative;
+    transition: all .4s;
+}
+
+.row img {
+    width: 100%;
+
+}
