@@ -179,3 +179,9 @@ section {
     color: #fff;
     transition: all .8s ease;
 }
+
+header.sticky {
+    background: #fff;
+    padding: 20px 10%;
+    box-shadow: ;
+}
