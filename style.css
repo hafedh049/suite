@@ -54,4 +54,7 @@ header {
     color: hotpink;
 }
 
-.nav-icons
+.nav-icon {
+    display: flex;
+
+}
