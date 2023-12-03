@@ -58,3 +58,8 @@ header {
     display: flex;
     align-items: center;
 }
+
+.nav-icon i {
+    display: flex;
+    align-items: center;
+}
