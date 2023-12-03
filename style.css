@@ -218,3 +218,5 @@ header.sticky {
     height: auto;
     transition: all .4s;
 }
+
+.row img:hover {}
