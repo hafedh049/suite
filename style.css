@@ -236,3 +236,8 @@ header.sticky {
     background-color: greenyellow;
     padding: 3px 10px;
 }
+
+.heart-icon {
+    position: absolute;
+
+}
