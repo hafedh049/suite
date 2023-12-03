@@ -69,4 +69,5 @@ header {
 
 .nav-icon i:hover {
     color: hotpink;
+    transition: scale;
 }
