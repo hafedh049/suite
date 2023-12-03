@@ -260,4 +260,6 @@ header.sticky {
     text-transform: capitalize;
 }
 
-.price p {}
+.price p {
+    color: #151515;
+}
