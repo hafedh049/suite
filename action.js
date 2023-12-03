@@ -76,7 +76,7 @@ function loadUpdates() {
     row.setAttribute("class", "cart");
 
     const image = document.createElement("img");
-    image.setAttribute("src", "images/" + index + ".jpg");
+    image.setAttribute("src", "images/bl-" + index + ".png");
 
     const productText = document.createElement("div");
     productText.setAttribute("class", "product-text");
