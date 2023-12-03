@@ -94,5 +94,7 @@ section {
     display: grid;
     /*t5alik t orginizi el main-home bch el children mte3ou ykounou fi fourma taa grid*/
     grid-template-columns: repeat(1, 1fr);
-    /*define the number of columns in the grid*/
+    /*define the number of columns in the grid, repeate(1,1fr) means create one column
+    per time and its space is occupied by the available space, fr is the css unit to
+    ditribute the available space among column */
 }
