@@ -396,3 +396,9 @@ header.sticky {
     transform: scale(1.3);
     color: hotpink;
 }
+
+.end-text {
+    background-color: #edfff1;
+    text-align: center;
+    padding: 20px;
+}
