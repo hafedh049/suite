@@ -374,4 +374,9 @@ header.sticky {
     color: #565656;
     font-size: 14px;
     font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .8s ease;
 }
