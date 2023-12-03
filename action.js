@@ -1,6 +1,5 @@
 const products = document.getElementById("products");
 for (let index = 0; index < 6; index += 1) {
-
   const row = document.createElement("div");
   row.setAttribute("class", "row");
 
@@ -16,21 +15,21 @@ for (let index = 0; index < 6; index += 1) {
   const heartIcon = document.createElement("div");
   heartIcon.setAttribute("class", "heart-icon");
   heart = document.createElement("i");
-  heart.setAttribute("class","bx bxs-heart-circle");
+  heart.setAttribute("class", "bx bxs-heart-circle");
   heartIcon.appendChild(heart);
 
   const rating = document.createElement("div");
   rating.setAttribute("class", "rating");
-  for(let ind = 0; ind <5;ind+=1){
+  for (let ind = 0; ind < 5; ind += 1) {
     const star = document.createElement("i");
-    star.setAttribute((ind != 4) ?"bx bxs-star" : "bx bxs-star-half" );
+    star.setAttribute(ind != 4 ? "bx bxs-star" : "bx bxs-star-half");
     rating.appendChild(star);
   }
 
   const price = document.createElement("div");
   heartIcon.setAttribute("class", "price");
   productName = document.createElement("h4");
-  heart.innerHTML = ;
+  heart.innerHTML = "Half Running Set";
   heartIcon.appendChild(heart);
 
   row.appendChild(image);
@@ -42,7 +41,7 @@ for (let index = 0; index < 6; index += 1) {
   products.appendChild(row);
 }
 
-  <div class="price">
-    <h4>Half Running Set</h4>
-    <p>$99 - $129</p>
-  </div>
+<div class="price">
+  <h4>Half Running Set</h4>
+  <p>$99 - $129</p>
+</div>;
