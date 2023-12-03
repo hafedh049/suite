@@ -191,4 +191,7 @@ header.sticky {
 }
 
 /*trending-section*/
-.center-text h2 {}
+.center-text h2 {
+    color: #111;
+    font-size: 28px;
+}
