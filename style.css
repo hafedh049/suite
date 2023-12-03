@@ -106,4 +106,9 @@ section {
     font-weight: 500;
 }
 
-.main-text
+.main-text h1 {
+    color: #000;
+    font-size: 65px;
+    line-height: 1.1;
+    font-weight: 600;
+}
