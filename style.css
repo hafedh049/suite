@@ -145,5 +145,6 @@ section {
 
 .down-arrow {
     position: absolute;
-    top: 85;
+    top: 85%;
+    right: 11%;
 }
