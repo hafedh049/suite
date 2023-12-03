@@ -6,6 +6,9 @@ for (let index = 0; index < 6; index += 1) {
   image.setAttribute("src", "images/$(index).jpg");
   const productText = document.createElement("div");
   productText.setAttribute("class", "product-text");
+  productTextH5 = document.createElement("h5");
+
+  productText.appendChild(productTextH5);
   row.appendChild(image);
   row.appendChild(productText);
   row.appendChild(image);
