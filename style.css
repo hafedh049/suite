@@ -97,4 +97,5 @@ section {
     /*define the number of columns in the grid, repeate(1,1fr) means create one column
     per time and its space is occupied by the available space, fr is the css unit to
     ditribute the available space among column */
+    align-items: center;
 }
