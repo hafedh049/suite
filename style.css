@@ -248,3 +248,8 @@ header.sticky {
     color: hotpink;
     transform: scale(1.05);
 }
+
+.rating i {
+    color: yellow;
+
+}
