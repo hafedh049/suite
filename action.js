@@ -36,6 +36,7 @@ for (let index = 0; index < 6; index += 1) {
   productPrice.innerHTML = "$99 - $129";
 
   price.appendChild(productName);
+  price.appendChild(productPrice);
 
   row.appendChild(image);
   row.appendChild(productText);
