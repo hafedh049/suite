@@ -92,5 +92,6 @@ section {
     background-position: center;
     background-size: cover;
     display: grid;
+    /**/
     grid-template-columns: repeat(1, 1fr);
 }
