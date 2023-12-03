@@ -99,3 +99,10 @@ section {
     ditribute the available space among column */
     align-items: center;
 }
+
+.main-text h5 {
+    color: hotpink;
+    font-size: 16px;
+    font-weight: 500;
+
+}
