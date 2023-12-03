@@ -73,7 +73,7 @@ function loadUpdates() {
   const updates = document.getElementById("updates");
   for (let index = 1; index <= 3; index += 1) {
     const update = document.createElement("div");
-    row.setAttribute("class", "cart");
+    update.setAttribute("class", "cart");
 
     const image = document.createElement("img");
     image.setAttribute("src", "images/bl-" + index + ".png");
@@ -82,13 +82,15 @@ function loadUpdates() {
     updateDate.innerHTML = "26 JAN 2022";
 
     const updateTitle = document.createElement("h4");
-    updateDate.innerHTML = "26 JAN 2022";
+    updateTitle.innerHTML = "Let's start bring sale on this summer vacation.";
 
     const updateDescription = document.createElement("p");
-    updateDate.innerHTML = "26 JAN 2022";
+    updateDescription.innerHTML = `The shopping process was seamless and secure. I was able to create an account quickly and easily, and
+    the checkout system was straightforward and efficient. I also appreciated the various payment
+    options available, including major credit cards and online payment platforms.`;
 
     const updateCR = document.createElement("h6");
-    updateDate.innerHTML = "26 JAN 2022";
+    updateCR.innerHTML = "Continue Reading...";
 
     update.appendChild(image);
     update.appendChild(updateDate);
@@ -96,6 +98,6 @@ function loadUpdates() {
     update.appendChild(updateDescription);
     update.appendChild(updateCR);
 
-    updates.appendChild(row);
+    updates.appendChild(update);
   }
 }
