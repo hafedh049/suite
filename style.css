@@ -94,4 +94,5 @@ section {
     display: grid;
     /*t5alik t orginizi el main-home bch el children mte3ou ykounou fi fourma taa grid*/
     grid-template-columns: repeat(1, 1fr);
+    /*define the number of columns in the grid*/
 }
