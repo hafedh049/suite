@@ -381,6 +381,6 @@ header.sticky {
     transition: all .8s ease;
 }
 
-.contact-info p {
+.contact-info p:hover {
     color: hotpink;
 }
