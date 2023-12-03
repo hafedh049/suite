@@ -19,8 +19,13 @@ for (let index = 0; index < 6; index += 1) {
   heart.setAttribute("class","bx bxs-heart-circle");
   heartIcon.appendChild(heart);
 
-  const heartIcon = document.createElement("div");
-  heartIcon.setAttribute("class", "heart-icon");
+  const rating = document.createElement("div");
+  rating.setAttribute("class", "rating");
+  for(let ind = 0; ind <5;ind+=1){
+    const star = document.createElement("i");
+    star.setAttribute("class","bx bxs-star");
+    rating.appendChild();
+  }
   heart = document.createElement("i");
   heart.setAttribute("class","bx bxs-heart-circle");
   heartIcon.appendChild(heart);
