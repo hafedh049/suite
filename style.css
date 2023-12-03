@@ -420,7 +420,7 @@ header.sticky {
     font-weight: bold;
 }
 
-#last-name:hiver {
+#last-name:hover {
     transform: scale(1.3) rotateZ(1deg);
     text-decoration: underline;
 }
