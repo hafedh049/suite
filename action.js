@@ -79,41 +79,23 @@ function loadUpdates() {
     image.setAttribute("src", "images/bl-" + index + ".png");
 
     const updateDate = document.createElement("h5");
-    productTextH5.innerHTML = "26 JAN 2022";
-    productText.appendChild(productTextH5);
+    updateDate.innerHTML = "26 JAN 2022";
 
-    const heartIcon = document.createElement("div");
-    heartIcon.setAttribute("class", "heart-icon");
-    heart = document.createElement("i");
-    heart.setAttribute("class", "bx bxs-heart-circle");
-    heartIcon.appendChild(heart);
+    const updateTitle = document.createElement("h5");
+    updateDate.innerHTML = "26 JAN 2022";
 
-    const rating = document.createElement("div");
-    rating.setAttribute("class", "rating");
-    for (let ind = 0; ind < 5; ind += 1) {
-      const star = document.createElement("i");
-      star.setAttribute("class", ind != 4 ? "bx bxs-star" : "bx bxs-star-half");
-      rating.appendChild(star);
-    }
+    const updateDescription = document.createElement("h5");
+    updateDate.innerHTML = "26 JAN 2022";
 
-    const price = document.createElement("div");
-    price.setAttribute("class", "price");
+    const updateCR = document.createElement("h5");
+    updateDate.innerHTML = "26 JAN 2022";
 
-    const productName = document.createElement("h4");
-    productName.innerHTML = "Half Running Set";
+    update.appendChild(image);
+    update.appendChild(updateDate);
+    update.appendChild(updateTitle);
+    update.appendChild(updateDescription);
+    update.appendChild(updateCR);
 
-    const productPrice = document.createElement("p");
-    productPrice.innerHTML = "$99 - $129";
-
-    price.appendChild(productName);
-    price.appendChild(productPrice);
-
-    row.appendChild(image);
-    row.appendChild(productText);
-    row.appendChild(heartIcon);
-    row.appendChild(rating);
-    row.appendChild(price);
-
-    products.appendChild(row);
+    updates.appendChild(row);
   }
 }
