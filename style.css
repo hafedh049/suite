@@ -403,7 +403,9 @@ header.sticky {
     padding: 20px;
 }
 
-#first-name {}
+#first-name {
+    color: hotpink;
+}
 
 #first-name {}
 
