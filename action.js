@@ -3,7 +3,7 @@ for (let index = 0; index < 6; index += 1) {
     const row = document.createElement("div");
     row.setAttribute("class","row");
     const image = document.createElement("img");
-    image.setAttribute("src","images/$(index)index.");
+    image.setAttribute("src","images/$(index).jpg");
     row.appendChild()
     products.appendChild(row);
 }
