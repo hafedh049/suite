@@ -194,4 +194,5 @@ header.sticky {
 .center-text h2 {
     color: #111;
     font-size: 28px;
+    text-align: center;
 }
