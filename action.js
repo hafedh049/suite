@@ -81,13 +81,13 @@ function loadUpdates() {
     const updateDate = document.createElement("h5");
     updateDate.innerHTML = "26 JAN 2022";
 
-    const updateTitle = document.createElement("h5");
+    const updateTitle = document.createElement("h4");
     updateDate.innerHTML = "26 JAN 2022";
 
-    const updateDescription = document.createElement("h5");
+    const updateDescription = document.createElement("p");
     updateDate.innerHTML = "26 JAN 2022";
 
-    const updateCR = document.createElement("h5");
+    const updateCR = document.createElement("h6");
     updateDate.innerHTML = "26 JAN 2022";
 
     update.appendChild(image);
