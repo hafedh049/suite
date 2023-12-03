@@ -71,3 +71,7 @@ header {
     color: hotpink;
     transform: scale(1.1);
 }
+
+#menu-icon {
+    font-size: 35px;
+}
