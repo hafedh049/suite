@@ -46,8 +46,3 @@ for (let index = 0; index < 6; index += 1) {
 
   products.appendChild(row);
 }
-
-<div class="price">
-  <h4>Half Running Set</h4>
-  <p>$99 - $129</p>
-</div>;
