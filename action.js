@@ -1,13 +1,3 @@
-document.addEventListener(
-  "touchmove",
-  function (event) {
-    if (event.scale !== 1) {
-      event.preventDefault();
-    }
-  },
-  { passive: false }
-);
-
 const header = document.querySelector("#header");
 
 window.addEventListener("scroll", function () {
