@@ -219,4 +219,6 @@ header.sticky {
     transition: all .4s;
 }
 
-.row img:hover {}
+.row img:hover {
+    transform: scale(.8);
+}
