@@ -23,8 +23,8 @@ for (let index = 0; index < 6; index += 1) {
   rating.setAttribute("class", "rating");
   for(let ind = 0; ind <5;ind+=1){
     const star = document.createElement("i");
-    star.setAttribute(() ?"bx bxs-star" : "bx bxs-star" );
-    rating.appendChild();
+    star.setAttribute((ind != 4) ?"bx bxs-star" : "bx bxs-star-half" );
+    rating.appendChild(star);
   }
   heart = document.createElement("i");
   heart.setAttribute("class","bx bxs-heart-circle");
