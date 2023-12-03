@@ -407,6 +407,7 @@ header.sticky {
     color: hotpink;
     transition: all .8s ease;
     font-weight: bold;
+    font-size: 16;
 }
 
 #first-name:hover {
