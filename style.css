@@ -56,5 +56,5 @@ header {
 
 .nav-icon {
     display: flex;
-
+    align-items: center;
 }
