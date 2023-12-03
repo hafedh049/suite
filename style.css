@@ -34,4 +34,5 @@ header {
 .logo img {
     max-width: 120px;
     height: auto;
+    /*auto calculate the height*/
 }
