@@ -281,3 +281,11 @@ header.sticky {
     text-align: center;
     font-weight: 700;
 }
+
+.reviews h3 {
+    color: #111;
+    font-size: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+}
