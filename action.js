@@ -27,6 +27,12 @@ for (let index = 0; index < 6; index += 1) {
     rating.appendChild(star);
   }
 
+  const price = document.createElement("div");
+  heartIcon.setAttribute("class", "price");
+  productName = document.createElement("h4");
+  heart.innerHTML = ;
+  heartIcon.appendChild(heart);
+
   row.appendChild(image);
   row.appendChild(productText);
   row.appendChild(heartIcon);
@@ -35,16 +41,6 @@ for (let index = 0; index < 6; index += 1) {
 
   products.appendChild(row);
 }
-
-
-
-  <div class="rating">
-    <i class="bx bxs-star"></i>
-    <i class="bx bxs-star"></i>
-    <i class="bx bxs-star"></i>
-    <i class="bx bxs-star"></i>
-    <i class="bx bxs-star-half"></i>
-  </div>
 
   <div class="price">
     <h4>Half Running Set</h4>
