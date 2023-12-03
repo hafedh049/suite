@@ -380,3 +380,8 @@ header.sticky {
     cursor: pointer;
     transition: all .8s ease;
 }
+
+.contact-info p {
+    color: #565656;
+
+}
