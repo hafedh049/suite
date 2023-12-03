@@ -5,7 +5,7 @@ function loadProducts() {
     row.setAttribute("class", "row");
 
     const image = document.createElement("img");
-    image.setAttribute("src", "./images");
+    image.setAttribute("src", "images/1.jpg");
 
     const productText = document.createElement("div");
     productText.setAttribute("class", "product-text");
