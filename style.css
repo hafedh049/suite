@@ -262,4 +262,6 @@ header.sticky {
 
 .price p {
     color: #151515;
+    font-size: 14px;
+    font-weight: 600;
 }
