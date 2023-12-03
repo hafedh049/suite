@@ -384,3 +384,9 @@ header.sticky {
 .contact-info p:hover {
     color: hotpink;
 }
+
+.social-icon i {
+    color: #565656;
+    margin-right: 10px;
+    font-size: 16px;
+}
