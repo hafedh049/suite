@@ -15,13 +15,13 @@ for (let index = 0; index < 6; index += 1) {
 
   const heartIcon = document.createElement("div");
   heartIcon.setAttribute("class", "heart-icon");
-  productTextH5 = document.createElement("i");
-  productTextH5.setAttribute("class","bx bxs-heart-circle");
-  productText.appendChild(productTextH5);
+  heart = document.createElement("i");
+  heart.setAttribute("class","bx bxs-heart-circle");
+  heartIcon.appendChild(heart);
 
   row.appendChild(image);
   row.appendChild(productText);
-  row.appendChild(image);
+  row.appendChild(heartIcon);
   row.appendChild(image);
   row.appendChild(image);
 
@@ -29,9 +29,7 @@ for (let index = 0; index < 6; index += 1) {
 }
 
 
-  <div class="heart-icon">
-    <i class="bx bxs-heart-circle"></i>
-  </div>
+
   <div class="rating">
     <i class="bx bxs-star"></i>
     <i class="bx bxs-star"></i>
