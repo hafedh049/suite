@@ -1,7 +1,7 @@
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", function () {
-  header.classList.toggle("sticky", this.window.scrollY > 0);
+  header.classlist.toggle("sticky", this.window.scrollY > 0);
   /*
   "toggles" token, removing it if it's present and adding it if it's not present.
   sticky is just a name to use it later for styles
