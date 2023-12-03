@@ -406,19 +406,21 @@ header.sticky {
 #first-name {
     color: hotpink;
     transition: all .8s ease;
+    font-weight: bold;
 }
 
 #first-name:hover {
-    transform: scale(1.3) rotate3d(1deg);
+    transform: scale(1.3) rotateZ(1deg);
     text-decoration: underline;
 }
 
 #last-name {
     color: hotpink;
     transition: all .8s ease;
+    font-weight: bold;
 }
 
 #last-name {
-    transform: scale(1.3) rotate3d(1deg);
+    transform: scale(1.3) rotateZ(1deg);
     text-decoration: underline;
 }
