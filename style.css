@@ -44,5 +44,5 @@ header {
 .navmenu a {
     color: #2c2c2c;
     font-size: 16px;
-
+    pad: 10px 20px;
 }
