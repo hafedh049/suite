@@ -114,3 +114,9 @@ section {
     margin: 6px 0 10px;
     /*left,right,top,bottom*/
 }
+
+.main-text p {
+    color: ;
+    font-size: 20px;
+    font-style: italic;
+}
