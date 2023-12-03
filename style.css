@@ -47,7 +47,7 @@ header {
     padding: 10px 20px;
     font-weight: 400;
     transition: all .42s ease;
-    /*ay property titbadel el value mte3ha bch tsir transition(transition x animation) animated fi 0.42 seconds with ease curve*/
+    /*ay property titbadel el value mte3ha bch tsir transition(transition x animation) [mahich instantly] animated fi 0.42 seconds with ease curve*/
 }
 
 .navmenu a:hover {
