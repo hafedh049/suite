@@ -5,12 +5,13 @@ for (let index = 0; index < 6; index += 1) {
     const image = document.createElement("img");
     image.setAttribute("src","images/$(index).jpg");
     const productText =  document.createElement("div");
+    productText.setAttribute("class","product-text")
     row.appendChild()
     products.appendChild(row);
 }
 
 <div class="row">
-                <img src="images/1.jpg">
+              <img src="images/1.jpg">
                 <div class="product-text">
                     <h5>Sale</h5>
                 </div>
