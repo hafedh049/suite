@@ -60,6 +60,5 @@ header {
 }
 
 .nav-icon i {
-    display: flex;
-    align-items: center;
+    margin-right: 20px;
 }
