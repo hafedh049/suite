@@ -196,3 +196,7 @@ header.sticky {
     font-size: 28px;
     text-align: center;
 }
+
+.center-text span {
+    color: hotpink;
+}
