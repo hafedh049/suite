@@ -184,4 +184,7 @@ header.sticky {
     background: #fff;
     padding: 20px 10%;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+    /*
+    rgb(0 0 0 / 10%) is a color value in CSS with an alpha channel. It represents black (0 0 0 is black in RGB) with 10% opacity.
+    */
 }
