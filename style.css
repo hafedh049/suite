@@ -306,3 +306,8 @@ header.sticky {
 }
 
 /*Upadte Section CSS*/
+.up-center-text h2 {
+    text-align: center;
+    color: #111;
+    font-size: ;
+}
