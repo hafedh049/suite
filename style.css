@@ -13,3 +13,11 @@
     text-decoration: none;
     /*decoration applied to font kima e dash,line through, ...*/
 }
+
+header {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    z-index: 1000;
+    f
+}
