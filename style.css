@@ -221,7 +221,6 @@ header.sticky {
 }
 
 .row img:hover {
-    transform: scale(.95);
-    transform: rotateZ(1deg);
+    transform: scale(.95) rotateZ(1deg);
     border-radius: 25px;
 }
