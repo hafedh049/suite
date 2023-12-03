@@ -19,6 +19,12 @@ for (let index = 0; index < 6; index += 1) {
   heart.setAttribute("class","bx bxs-heart-circle");
   heartIcon.appendChild(heart);
 
+  const heartIcon = document.createElement("div");
+  heartIcon.setAttribute("class", "heart-icon");
+  heart = document.createElement("i");
+  heart.setAttribute("class","bx bxs-heart-circle");
+  heartIcon.appendChild(heart);
+
   row.appendChild(image);
   row.appendChild(productText);
   row.appendChild(heartIcon);
