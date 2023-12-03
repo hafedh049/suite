@@ -70,7 +70,7 @@ function loadProducts() {
 }
 
 function loadUpdates() {
-  const products = document.getElementById("products");
+  const updattes = document.getElementById("products");
   for (let index = 1; index <= 8; index += 1) {
     const row = document.createElement("div");
     row.setAttribute("class", "row");
