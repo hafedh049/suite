@@ -408,7 +408,9 @@ header.sticky {
     transition: all .8s ease;
 }
 
-#first-name {}
+#first-name:hover {
+    transform: scale(1.3) rotate3d(1deg);
+}
 
 #last-name {
     color: hotpink;
