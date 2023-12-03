@@ -205,5 +205,5 @@ header.sticky {
 .products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-    gap: 2rem
+    gap: 2rem;
 }
