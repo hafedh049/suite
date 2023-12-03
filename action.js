@@ -15,8 +15,8 @@ for (let index = 0; index < 6; index += 1) {
 
   const heartIcon = document.createElement("div");
   heartIcon.setAttribute("class", "heart-icon");
-  productTextH5 = document.createElement("h5");
-  productTextH5.innerHTML = "Sale";
+  productTextH5 = document.createElement("i");
+  productTextH5.setAttribute("class","bx bxs-heart-circle");
   productText.appendChild(productTextH5);
 
   row.appendChild(image);
