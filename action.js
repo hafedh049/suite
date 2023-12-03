@@ -71,7 +71,7 @@ function loadProducts() {
 
 function loadUpdates() {
   const updates = document.getElementById("updates");
-  for (let index = 1; index <= 8; index += 1) {
+  for (let index = 1; index <= 3; index += 1) {
     const row = document.createElement("div");
     row.setAttribute("class", "row");
 
