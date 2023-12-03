@@ -1,1 +1,1 @@
-const products = document.getElementById("");
+const products = document.getElementById("products");
