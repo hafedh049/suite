@@ -80,4 +80,6 @@ header {
     /*Changer the curseor icon to pointer(hand)*/
 }
 
-section {}
+section {
+    padding: 5%;
+}
