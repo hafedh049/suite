@@ -38,7 +38,7 @@ function loadProducts() {
     }
 
     const price = document.createElement("div");
-    heartIcon.setAttribute("class", "price");
+    price.setAttribute("class", "price");
 
     const productName = document.createElement("h4");
     productName.innerHTML = "Half Running Set";
