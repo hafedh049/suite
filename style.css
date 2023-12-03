@@ -46,5 +46,5 @@ header {
     font-size: 16px;
     padding: 10px 20px;
     font-weight: 400;
-    transition: all .42s;
+    transition: all .42s ease;
 }
