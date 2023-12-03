@@ -139,4 +139,6 @@ section {
     background-color: #000;
 }
 
-.main-btn {}
+.main-btn {
+    vertical-align: middle;
+}
