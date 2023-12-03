@@ -91,4 +91,6 @@ section {
     background-image: url("images/banner-3.png");
     background-position: center;
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
