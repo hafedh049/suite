@@ -354,4 +354,5 @@ header.sticky {
 
 .contact-info {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(, auto));
 }
