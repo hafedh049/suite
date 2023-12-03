@@ -320,3 +320,8 @@ header.sticky {
     height: auto;
     border-radius: 15px;
 }
+
+.update-cart {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+}
