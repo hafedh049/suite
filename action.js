@@ -33,7 +33,7 @@ for (let index = 0; index < 6; index += 1) {
   productName.innerHTML = "Half Running Set";
 
   const productPrice = document.createElement("h4");
-  productName.innerHTML = "Half Running Set";
+  productPrice.innerHTML = "$99 - $129";
 
   price.appendChild(productName);
 
