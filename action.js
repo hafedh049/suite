@@ -1,3 +1,13 @@
+window.addEventListener("keydown", function (event) {
+  // Prevent zooming using Ctrl+, Ctrl-, and Ctrl=
+  if (
+    (event.ctrlKey || event.metaKey) &&
+    (event.key === "+" || event.key === "-" || event.key === "=")
+  ) {
+    event.preventDefault();
+  }
+});
+
 const header = document.querySelector("#header");
 
 window.addEventListener("scroll", function () {
