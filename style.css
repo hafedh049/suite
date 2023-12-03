@@ -52,7 +52,7 @@ header {
 
 .navmenu a:hover {
     color: hotpink;
-    transform: scale(1.5);
+    transform: scale(25);
 }
 
 .nav-icon {
