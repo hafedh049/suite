@@ -227,5 +227,8 @@ header.sticky {
 
 .product-text h5 {
     position: absolute;
-
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 12;
 }
