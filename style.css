@@ -324,4 +324,5 @@ header.sticky {
 .update-cart {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, auto));
+    gap: 1rem;
 }
