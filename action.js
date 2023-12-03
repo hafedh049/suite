@@ -7,7 +7,7 @@ for (let index = 0; index < 6; index += 1) {
   const productText = document.createElement("div");
   productText.setAttribute("class", "product-text");
   row.appendChild(image);
-  row.appendChild(image);
+  row.appendChild(productText);
   row.appendChild(image);
   row.appendChild(image);
   row.appendChild(image);
