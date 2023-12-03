@@ -269,3 +269,7 @@ header.sticky {
 .client-reviews {
     background-color: #F3F4F6;
 }
+
+.reviews {
+    text-align: center;
+}
