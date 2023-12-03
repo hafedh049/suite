@@ -388,5 +388,6 @@ header.sticky {
 .social-icon i {
     color: #565656;
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 20px;
+    transition: all .8s ease;
 }
