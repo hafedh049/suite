@@ -142,3 +142,8 @@ section {
 .main-btn i {
     vertical-align: middle;
 }
+
+.down-arrow {
+    position: absolute;
+    top: 85;
+}
