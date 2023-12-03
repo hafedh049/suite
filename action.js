@@ -1,3 +1,7 @@
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", function () {});
+
 function loadProducts() {
   const products = document.getElementById("products");
   for (let index = 1; index <= 8; index += 1) {
