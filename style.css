@@ -224,3 +224,7 @@ header.sticky {
     transform: scale(.95) rotateZ(1deg);
     border-radius: 25px;
 }
+
+.product-text h5 {
+    position: absolute
+}
