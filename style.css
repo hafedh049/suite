@@ -165,3 +165,9 @@ section {
     top: 85%;
     right: 11%;
 }
+
+.down i {
+    font-size: 30px;
+    color: #2c2c2c;
+    border: 2px;
+}
