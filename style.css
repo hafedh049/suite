@@ -423,4 +423,7 @@ header.sticky {
     text-decoration: underline;
 }
 
-.end-text p {}
+.end-text p {
+    color: #111;
+    text-transform: capitalize;
+}
