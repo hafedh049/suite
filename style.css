@@ -147,8 +147,7 @@ section {
     position: absolute;
     /*
     An element with position: relative; is positioned relative to its normal position.
-
-Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+    Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
     */
     /*
     An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page*/
