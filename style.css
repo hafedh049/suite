@@ -146,7 +146,10 @@ section {
 .down-arrow {
     position: absolute;
     /*absolute : yaani tpositioni el element relative to its nearst ancestor w ken famch ancestor mela el containing block eli fih
-    relative : ya3ni relative to its ancector tnajmch taati right,...*/
+    relative : ya3ni relative to its ancector tnajm taati right,...*/
+    /*
+    An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page*/
+
     top: 85%;
     right: 11%;
 }
