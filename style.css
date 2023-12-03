@@ -174,4 +174,8 @@ section {
     padding: 12px 12px;
 }
 
-.down i:hover
+.down i:hover {
+    background-color: #2c2c2c;
+    columns: #fff;
+    transition: all .8s ease;
+}
