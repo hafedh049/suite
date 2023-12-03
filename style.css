@@ -217,6 +217,8 @@ header.sticky {
     width: 100%;
     height: auto;
     transition: all .4s;
+    border-radius: 25px;
+
 }
 
 .row img:hover {
