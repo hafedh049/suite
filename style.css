@@ -246,5 +246,5 @@ header.sticky {
 
 .heart-icon:hover {
     color: hotpink;
-    transform: scale(1.05)
+    transform: scale(1.05);
 }
