@@ -357,3 +357,8 @@ header.sticky {
     grid-template-columns: repeat(auto-fit, minmax(160px, auto));
     gap: 3rem;
 }
+
+.first-info img {
+    width: 14px;
+    height: auto;
+}
