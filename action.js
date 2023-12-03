@@ -28,9 +28,14 @@ for (let index = 0; index < 6; index += 1) {
 
   const price = document.createElement("div");
   heartIcon.setAttribute("class", "price");
-  productName = document.createElement("h4");
-  heart.innerHTML = "Half Running Set";
-  heartIcon.appendChild(heart);
+
+  const productName = document.createElement("h4");
+  productName.innerHTML = "Half Running Set";
+
+  const productPrice = document.createElement("h4");
+  productName.innerHTML = "Half Running Set";
+
+  price.appendChild(productName);
 
   row.appendChild(image);
   row.appendChild(productText);
