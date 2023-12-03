@@ -369,3 +369,7 @@ header.sticky {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
+.contact-info p {
+    color: #565656
+}
