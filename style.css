@@ -25,4 +25,5 @@ header {
     /*by default flex-direction is row(Horizontaly), dynamically adjust their sizes within a container*/
     align-items: center;
     /*aligns the items to the cross-axis(x-axis) in this case top center*/
+
 }
