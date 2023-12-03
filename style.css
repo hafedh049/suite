@@ -16,6 +16,7 @@
 
 header {
     position: fixed;
+    /*always stays fixed and its postion is relative to the window or viewport*/
     width: 100%;
     right: 0;
     z-index: 1000;
