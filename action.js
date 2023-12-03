@@ -4,6 +4,7 @@ for (let index = 0; index < 6; index += 1) {
     row.setAttribute("class","row");
     const image = document.createElement("img");
     image.setAttribute("src","images/$(index).jpg");
+    const productText =  document.createElement("div");
     row.appendChild()
     products.appendChild(row);
 }
