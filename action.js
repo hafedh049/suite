@@ -78,7 +78,7 @@ function loadUpdates() {
     const image = document.createElement("img");
     image.setAttribute("src", "images/bl-" + index + ".png");
 
-    const productText = document.createElement("div");
+    const productText = document.createElement("h5");
     productText.setAttribute("class", "product-text");
     productTextH5 = document.createElement("h5");
     productTextH5.innerHTML = "Sale";
