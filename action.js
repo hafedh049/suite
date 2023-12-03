@@ -23,7 +23,7 @@ for (let index = 0; index < 6; index += 1) {
   rating.setAttribute("class", "rating");
   for(let ind = 0; ind <5;ind+=1){
     const star = document.createElement("i");
-    star.setAttribute("class","bx bxs-star");
+    star.setAttribute(() ?"class","bx bxs-star" :"class","bx bxs-star" );
     rating.appendChild();
   }
   heart = document.createElement("i");
