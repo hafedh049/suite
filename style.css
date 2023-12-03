@@ -363,4 +363,7 @@ header.sticky {
     height: auto;
 }
 
-.contact-info h4 {}
+.contact-info h4 {
+    color: #212529;
+    font-size: ;
+}
