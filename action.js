@@ -104,7 +104,7 @@ function loadUpdates() {
 
 function loadContact() {
   const contacts = document.getElementById("contact");
-  const items = Map();
+  const items = new Map();
   items.set("second-info", [
     "Support",
     "Contact Me",
@@ -137,7 +137,8 @@ function loadContact() {
     contact.appendChild(h4);
     for (let item in value) {
       const p = document.createElement("p");
-      h4.innerHTML = item;
+      p.innerHTML = item;
+      contact.appendChild(p);
     }
     contacts.appendChild(contact);
   }
