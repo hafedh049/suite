@@ -103,7 +103,7 @@ function loadUpdates() {
 }
 
 function loadContact() {
-  const contacts = document.getElementById("contact");
+  const contacts = document.getElementById("contact-info");
   const items = new Map();
   items.set("second-info", [
     "Support",
