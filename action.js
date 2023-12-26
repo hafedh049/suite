@@ -101,3 +101,44 @@ function loadUpdates() {
     updates.appendChild(update);
   }
 }
+
+function loadContact() {
+  const contacts = document.getElementById("contact");
+  const items = Map();
+  items.set("second-info", [
+    "Support",
+    "Contact Me",
+    "About",
+    "Size Guide",
+    "Size Shopping & Returns",
+    "Privacy",
+  ]);
+  items.set("third-info", [
+    "Shop",
+    "Men's Shopping",
+    "Women's Shopping",
+    "Kid's Shopping",
+    "Furniture",
+    "Discount",
+  ]);
+  items.set("fourth-info", ["Company", "About", "Blog", "Affiliate", "Login"]);
+  items.set("fifth-info", [
+    "Subscribe",
+    "Receive Updates, Hot Deals, Discounts Sent Straight In Your Inbox Daily.",
+    "Exclusive offers, new arrivals, delivered to your inbox!.",
+    "Get the latest deals, limited-time offers, right to your email!",
+  ]);
+
+  for (let [key, value] of items) {
+    const contact = document.createElement("div");
+    contact.setAttribute("class", key);
+    const h4 = document.createElement("h4");
+    h4.innerHTML = value.shift();
+    contact.appendChild(h4);
+    for (let item in value) {
+      const p = document.createElement("p");
+      h4.innerHTML = item;
+    }
+    contacts.appendChild(contact);
+  }
+}
