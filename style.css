@@ -33,7 +33,7 @@ header {
 }
 
 .logo img {
-    max-width: 150px;
+    max-width: 120px;
     height: auto;
     border-radius: 15px;
     /*auto calculate the height*/
