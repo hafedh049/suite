@@ -166,16 +166,21 @@ section {
 
     top: 85%;
     right: 11%;
+    animation: moveUpDown 2s ease-in-out infinite;
+    /* Apply the animation */
 }
 
-@keyframes {
-    from: {}
+@keyframes moveUpDown {
 
-    ;
+    from {
+        top: 0;
+        /* Starting and ending position */
+    }
 
-    to {}
-
-    ;
+    to {
+        top: 50px;
+        /* Middle position */
+    }
 }
 
 .down i {
