@@ -229,7 +229,7 @@ header.sticky {
 
 .row img {
     width: 100%;
-    height: auto;
+    height: 350px;
     transition: all .4s;
     border-radius: 15px;
 }
