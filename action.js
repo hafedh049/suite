@@ -135,11 +135,11 @@ function loadContact() {
     const h4 = document.createElement("h4");
     h4.innerHTML = value.shift();
     contact.appendChild(h4);
-    for (let item in value) {
+    value.forEach((element) => {
       const p = document.createElement("p");
-      p.innerHTML = item;
+      p.innerHTML = element;
       contact.appendChild(p);
-    }
+    });
     contacts.appendChild(contact);
   }
 }
